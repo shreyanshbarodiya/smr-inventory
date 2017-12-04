@@ -1,0 +1,77 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "8P5iQgAACAAJ",
+   "etag": "r+2/MlO15Vk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/8P5iQgAACAAJ",
+   "volumeInfo": {
+    "title": "Gulliver's Travels",
+    "authors": [
+     "Jonathan Swift"
+    ],
+    "publisher": "Bedford/St. Martin's",
+    "publishedDate": "1994-11-15",
+    "description": "Adopted at more than 1,000 colleges and universities, Bedford/St. Martin's innovative Case Studies in Contemporary Criticism series has introduced more than a quarter of a million students to literary theory and earned enthusiastic praise nationwide. Along with an authoritative text of a major literary work, each volume presents critical essays, selected or prepared especially for students, that approach the work from several contemporary critical perspectives, such as gender criticism and cultural studies. Each essay is accompanied by an introduction (with bibliography) to the history, principles, and practice of its critical perspective. Every volume also surveys the biographical, historical, and critical contexts of the literary work and concludes with a glossary of critical terms. New editions reprint cultural documents that contextualize the literary works and feature essays that show how critical perspectives can be combined.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0312066651"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780312066659"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 480,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 63,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.co.in/books/content?id=8P5iQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.co.in/books/content?id=8P5iQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=8P5iQgAACAAJ&dq=isbn:9780312066659&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=8P5iQgAACAAJ&dq=isbn:9780312066659&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Gulliver_s_Travels.html?hl=&id=8P5iQgAACAAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=8P5iQgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Along with an authoritative text of a major literary work, each volume presents critical essays, selected or prepared especially for students, that approach the work from several contemporary critical perspectives, such as gender criticism ..."
+   }
+  }
+ ]
+}

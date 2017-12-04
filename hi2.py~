@@ -1,0 +1,53 @@
+import sys
+sys.path.insert(0, '/home/shreyansh/Desktop/smr/beautifulsoup4-4.4.1')
+
+from bs4 import BeautifulSoup as BS
+import urllib2
+import csv
+
+Url = sys.argv[1]
+
+
+def createData(url):
+	fileName="hi.html"
+	page =urllib2.urlopen(url)
+	data=page.read()
+	f = open(fileName,'w')
+	f.write(data) # python will convert \n to os.linesep
+
+	with open(fileName, 'r') as myfile:
+	    datatext=myfile.read().replace('\n', '')
+
+	soup = BS(datatext,"lxml")
+
+	title = soup.findAll('h1', {'class': 'title'})
+	print "Title: ", title[0].text	
+
+	titleText = title[0].text
+
+	I = soup.findAll('td',{'class':'specsKey'})
+	J = soup.findAll('td',{'class':'specsValue'})
+	K= soup.find_all('div',{'class': 'price-wrap'})
+
+
+	for i in range(0,len(I)) :
+		if(I[i].text == "ISBN-10"):
+			print "ISBN: ",J[i].text.strip()
+			isbn10Text= J[i].text.strip()
+		if(I[i].text == "ISBN-13"):
+			print "ISBN-13: ", J[i].text.strip()
+			isbn13Text = J[i].text.strip()
+
+	for tag in K:
+	    tdTags = tag.find_all("span", {"class":"selling-price"})
+	    for tag in tdTags:
+	        print tag.text
+	        priceText = tag.text
+
+	with open('businessInvesting.csv', 'a') as csvfile:
+		writer = csv.writer(csvfile)
+		writer.writerow([titleText,  isbn10Text,isbn13Text, priceText ])
+
+#createData("http://www.flipkart.com/the-grapes-of-wrath/p/itmedv5ntjvemfpd?pid=9780141185064&otracker=reco_pp_book_book_1_2&ppid=9780141185101")
+createData(str(Url))
+

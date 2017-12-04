@@ -1,0 +1,12 @@
+python GoogleSummaryISBN13.py business/businessISBN13 business/businessGoogleData.csv
+ 1547  python GoogleSummaryISBN13.py classics/classicsISBN13 classics/classicsGoogleData.csv
+ 1548  python GoogleSummaryISBN13.py computer/computerISBN13 computer/computerGoogleData.csv
+ 1549  python GoogleSummaryISBN13.py crime/crimeISBN13 crime/crimeGoogleData.csv
+ 1550  python GoogleSummaryISBN13.py drama/dramaISBN13 drama/dramaGoogleData.csv
+ 1551  python GoogleSummaryISBN13.py fantasy/fantasyISBN13 fantasy/fantasyGoogleData.csv
+ 1552  python GoogleSummaryISBN13.py history/historyISBN13 history/historyGoogleData.csv
+ 1553  python GoogleSummaryISBN13.py horror/horrorISBN13 horror/horrorGoogleData.csv
+ 1554  python GoogleSummaryISBN13.py legal/legalISBN13 legal/legalGoogleData.csv
+ 1555  python GoogleSummaryISBN13.py philosophy/philosophyISBN13 philosophy/philosophyGoogleData.csv
+ 1556  python GoogleSummaryISBN13.py religion/religionISBN13 religion/religionGoogleData.csv
+ 1557  python GoogleSummaryISBN13.py romance/romanceISBN13 romance/romanceGoogleData.csv
